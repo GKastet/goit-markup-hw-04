@@ -430,7 +430,7 @@ img {
 }
 .logo-box-customer {
   height: 88px;
-  width: calc((100% - 120px)/6);
+  width:calc((100%-120px)/6);
 }
 .customers-link:hover,
 .customers-link:focus {
