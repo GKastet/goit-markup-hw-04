@@ -489,8 +489,8 @@ img {
 .icon-box-social.social-footer:not(:last-child) {
   margin-right: 16px;
 }
-.icon-box-social.social-footer:hover,
-.icon-box-social.social-footer:focus {
+.social-footer:hover,
+.social-footer:focus {
   background-color: var(--green);
 }
 .social-title {
