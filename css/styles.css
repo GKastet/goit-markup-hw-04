@@ -279,8 +279,7 @@ img {
 
 .example-item:not(:last-child),
 .team-foto:not(:last-child),
-.footer-chapter:not(:last-child),
-.logo-box-customer {
+.footer-chapter:not(:last-child) {
   margin-right: 24px;
 }
 
