@@ -66,8 +66,7 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  
 }
 .nav-page {
   display: flex;
@@ -104,8 +103,6 @@ img {
 
 .nav-menu {
   color: var(--navy-blue);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .site-nav .link:hover,
@@ -216,6 +213,7 @@ img {
 }
 
 /* Section*/
+
 .advantages,
 .examples {
   padding-bottom: 120px;
@@ -260,19 +258,27 @@ img {
   margin-right: 0px;
 }
 
-.icon-box-advantages {
+.advantages-icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  content: '';
   height: 112px;
   width: 264px;
   margin-bottom: 8px;
   background-color: var(--cloud);
   border-radius: 4px;
 }
-
+/* .advantages-item::before {
+  content:'';
+  display: block;
+  height: 112px;
+  width: 264px;
+  margin-bottom: 8px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  background-size: 64px;
+  background-image: url(../images/img-1.jpg);
+} */
 .example-list {
   display: flex;
 }
@@ -328,13 +334,11 @@ img {
   /* padding-bottom: 32px; */
 }
 .icon-box-social {
-  /* background-color: var(--iris); */
   width: 40px;
   height: 40px;
-  /* border-radius: 50%; */
   display: inline-flex;
 
-  content: '';
+  /* content: ''; */
 }
 .social-link {
   width: 100%;
@@ -363,7 +367,6 @@ img {
 /* Portfolio Filter */
 
 .button-filter {
-  /* padding-top: 96px; */
   margin-bottom: 72px;
 
   display: flex;
@@ -378,7 +381,6 @@ img {
 }
 
 .filter-list {
-  /* padding-bottom: 120px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -427,7 +429,8 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.logo-box-customer {
+
+.customers-logo-box {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
@@ -446,15 +449,15 @@ img {
   justify-content: center;
   color: var(--light-slate);
 }
-.logo-customer {
+.customers-logo {
   display: inline-block;
   width: 104px;
   height: 56px;
   fill: currentColor;
 }
 
-.logo-customer:hover,
-.logo-customer:focus {
+.customers-logo:hover,
+.customers-logo:focus {
   fill: var(--ocean);
 }
 
@@ -495,11 +498,11 @@ img {
   gap: 16px;
 }
 
-.social-footer:hover,
-.social-footer:focus {
+.footer-social:hover,
+.footer-social:focus {
   background-color: var(--green);
 }
-.social-title {
+.footer-social-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -507,7 +510,7 @@ img {
   color: var(--white);
 }
 
-.icon-social-footer {
+.footer-icon-social {
   width: 24px;
   height: 24px;
   fill: var(--cloud);
